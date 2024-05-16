@@ -1,0 +1,38 @@
+.historyHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.history-toggle {
+    padding: 5px 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+}
+.historyArea {
+    height: 400px;
+    overflow-y: auto;
+}
+ul {
+    
+    list-style-type: none;
+    font-size: 18px;
+}
+
+ul li {
+    margin-bottom: 5;
+    margin-top: 12px;
+}
+
+.clearHistory {
+    width: 9rem;
+    background-color: rgb(203, 205, 205);
+    font-weight: bolder;
+    box-shadow: 0px 0px 4px 0px #000;
+}
+.clearHistory:hover {
+    
+    background-color: rgb(184, 186, 187);    }
